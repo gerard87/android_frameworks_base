@@ -3258,6 +3258,12 @@ public final class Settings {
          */
         public static final String HARDWARE_KEY_REBINDING = "hardware_key_rebinding";
 
+        /**
+         * Height of navigation bar buttons
+         * @hide
+         */
+        public static final String NAV_BUTTONS_HEIGHT = "nav_buttons_height";
+
          /**
           * Action to perform when the home key is long-pressed. (Default is 2)
           * 0 - Nothing
@@ -3677,6 +3683,7 @@ public final class Settings {
      */
     public static final class Secure extends NameValueTable {
         public static final String SYS_PROP_SETTING_VERSION = "sys.settings_secure_version";
+
 
         /**
          * The content:// style URL for this table
